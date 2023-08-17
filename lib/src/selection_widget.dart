@@ -213,7 +213,6 @@ class _SelectionWidgetState<T> extends State<SelectionWidget<T>> {
                         controller: widget.scrollbarProps?.controller,
                         showTrackOnHover:
                             widget.scrollbarProps?.showTrackOnHover,
-                        hoverThickness: widget.scrollbarProps?.hoverThickness,
                         thickness: widget.scrollbarProps?.thickness,
                         radius: widget.scrollbarProps?.radius,
                         notificationPredicate:
