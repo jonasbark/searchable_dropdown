@@ -211,7 +211,6 @@ class _SelectionWidgetState<T> extends State<SelectionWidget<T>> {
                       context: context,
                       child: Scrollbar(
                         controller: widget.scrollbarProps?.controller,
-                        isAlwaysShown: widget.scrollbarProps?.isAlwaysShown,
                         showTrackOnHover:
                             widget.scrollbarProps?.showTrackOnHover,
                         hoverThickness: widget.scrollbarProps?.hoverThickness,
